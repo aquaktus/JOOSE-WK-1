@@ -58,4 +58,4 @@ item type Empty:
 	True.		[error]		
     False.		
 
-# this file generated 1024 test frames with TSL generator.
+# this file generated 20 test frames with TSL generator.
