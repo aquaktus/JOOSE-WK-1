@@ -1,0 +1,132 @@
+
+Test Case 1  		<single>
+   Item supplier :  same
+
+
+Test Case 2  		<single>
+   Barcode Empty :  True
+
+
+Test Case 3  		<single>
+   Barcode Numeric :  False
+
+
+Test Case 4  		<error>
+   Barcode Value :  <99
+
+
+Test Case 5  		<error>
+   Barcode Value :  >9999
+
+
+Test Case 6  		<single>
+   Name empty :  True
+
+
+Test Case 7  		<error>
+   Name length :  < 0
+
+
+Test Case 8  		<single>
+   Special Characters :  True
+
+
+Test Case 9  		<single>
+   Quantity Empty :  True
+
+
+Test Case 10 		<single>
+   Quantity Numeric :  False
+
+
+Test Case 11 		<error>
+   Quantity Value :  < 0
+
+
+Test Case 12 		<single>
+   Quantity Value :  <100
+
+
+Test Case 13 		<single>
+   supplier Empty :  True
+
+
+Test Case 14 		<error>
+   supplier Length :  < 0
+
+
+Test Case 15 		<single>
+   supplier Length :  = 0
+
+
+Test Case 16 		<error>
+   item type Empty :  True
+
+
+Test Case 17 		(Key = 2.2.1.2.2.2.0.2.1.2.2.3.1.2.)
+   Item supplier      :  different
+   Barcode Empty      :  False
+   Barcode Numeric    :  True
+   Barcode Value      :  >99 && <9999
+   Name empty         :  False
+   Name length        :  0
+   Special Characters :  <n/a>
+   Quantity Empty     :  False
+   Quantity Numeric   :  True
+   Quantity Value     :  >=0
+   supplier Empty     :  False
+   supplier Length    :  > 0
+   special Characters :  True
+   item type Empty    :  False
+
+
+Test Case 18 		(Key = 2.2.1.2.2.2.0.2.1.2.2.3.2.2.)
+   Item supplier      :  different
+   Barcode Empty      :  False
+   Barcode Numeric    :  True
+   Barcode Value      :  >99 && <9999
+   Name empty         :  False
+   Name length        :  0
+   Special Characters :  <n/a>
+   Quantity Empty     :  False
+   Quantity Numeric   :  True
+   Quantity Value     :  >=0
+   supplier Empty     :  False
+   supplier Length    :  > 0
+   special Characters :  False
+   item type Empty    :  False
+
+
+Test Case 19 		(Key = 2.2.1.2.2.3.2.2.1.2.2.3.1.2.)
+   Item supplier      :  different
+   Barcode Empty      :  False
+   Barcode Numeric    :  True
+   Barcode Value      :  >99 && <9999
+   Name empty         :  False
+   Name length        :  >0
+   Special Characters :  False
+   Quantity Empty     :  False
+   Quantity Numeric   :  True
+   Quantity Value     :  >=0
+   supplier Empty     :  False
+   supplier Length    :  > 0
+   special Characters :  True
+   item type Empty    :  False
+
+
+Test Case 20 		(Key = 2.2.1.2.2.3.2.2.1.2.2.3.2.2.)
+   Item supplier      :  different
+   Barcode Empty      :  False
+   Barcode Numeric    :  True
+   Barcode Value      :  >99 && <9999
+   Name empty         :  False
+   Name length        :  >0
+   Special Characters :  False
+   Quantity Empty     :  False
+   Quantity Numeric   :  True
+   Quantity Value     :  >=0
+   supplier Empty     :  False
+   supplier Length    :  > 0
+   special Characters :  False
+   item type Empty    :  False
+
