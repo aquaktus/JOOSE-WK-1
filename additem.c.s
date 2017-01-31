@@ -13,9 +13,9 @@ Barcode Numeric:
 	False.		[single][if !emptyB]
 	
 Barcode Value:
-	<99.				[error]
+	<99.				[single]
 	>99 && <9999.		[if !emptyB && NumericBarcode]
-	>9999.				[error]
+	>9999.				[single]
 	
 #Name
 Name empty:
@@ -55,7 +55,7 @@ special Characters:
 
 #type
 item type Empty:
-	True.		[error]		
+	True.		[single]		
     False.		
 
 # this file generated 20 test frames with TSL generator.
